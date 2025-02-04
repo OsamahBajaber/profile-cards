@@ -1,0 +1,91 @@
+:root {
+    background-color: #333;
+    font-family: cairo;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container div {
+    width: 350px;
+    height: 500px;
+    background-color: #eee;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+img:hover {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+h2 {
+    text-transform: capitalize;
+    margin-bottom: -25px;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #636363;
+}
+
+p {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #2b2b2b;
+    font-size: large;
+}
+
+p::first-letter {
+    text-transform: uppercase;
+}
+
+i {
+    position: absolute;
+    bottom: 10%;
+    font-size: x-large;
+    opacity: 0.3;
+}
+
+.fa-reddit {
+    left: 30%;
+}
+
+.fa-twitter {
+    left: 40%;
+}
+
+.fa-vimeo-v {
+    left: 50%;
+}
+
+.fa-linkedin {
+    left: 60%;
+}
+
+i:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
